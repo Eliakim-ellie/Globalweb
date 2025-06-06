@@ -1,0 +1,22 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #f4f4f4; color: #333; }
+header { background: url('https://source.unsplash.com/1600x600/?church') center/cover no-repeat; color: white; padding-bottom: 40px; }
+nav { background-color: rgba(0, 0, 0, 0.6); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.8rem; }
+.nav-links { list-style: none; display: flex; gap: 1rem; }
+.nav-links a { color: white; text-decoration: none; transition: color 0.3s; }
+.nav-links a:hover { color: #ffcc00; }
+.hero { text-align: center; padding: 100px 20px 20px; background-color: rgba(0,0,0,0.5); }
+.hero h2 { font-size: 3rem; }
+.section { padding: 3rem 2rem; text-align: center; background: white; }
+.alt { background: #eee; }
+h2 { margin-bottom: 1rem; }
+ul { list-style: none; padding: 0; }
+ul li { margin: 10px 0; }
+.ministries { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; }
+.ministries div { background: white; padding: 1rem; border-radius: 8px; width: 250px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+form { display: flex; flex-direction: column; gap: 1rem; max-width: 400px; margin: auto; }
+input, textarea { padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; }
+button, .btn-primary { background: #1d1d1d; color: white; padding: 0.75rem; border: none; border-radius: 5px; cursor: pointer; }
+button:hover, .btn-primary:hover { background: #444; }
+footer { background: #222; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
